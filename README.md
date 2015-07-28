@@ -3,3 +3,5 @@
 C# Action 'Roguelike-like' from 2012
 
 All .xml files must be present in the main folder for the game to work. In-game help is provided using the F1 key.
+
+Though the game should be completable, it has not been tested, as the difficulty exceeds the skill of the author.
