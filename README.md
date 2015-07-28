@@ -1,4 +1,4 @@
-## This project is no longer being actively maintained. It is being presented as a historical interest of the author.
+## This project is no longer being actively maintained and is considered complete.
 # borrdome
 C# Action 'Roguelike-like' from 2012
 
