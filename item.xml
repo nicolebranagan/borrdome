@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  
+  <!-- Potions -->
+  <Item>
+    <Name>Potion</Name>
+    <TrueName>Health Potion</TrueName>
+    
+    <!-- Appearance -->
+    <Face>!</Face>
+    <ForegroundColor>ColorSet0-1</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a vial.</Description>
+    
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+    
+    <!-- Change Effects -->
+    <Health>25</Health>
+    
+    <!-- Status Effects -->
+    
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <Rarity>0.8</Rarity>
+    <Value>10</Value>
+  </Item>
+
+  <Item>
+    <Name>Potion</Name>
+    <TrueName>Antidote Potion</TrueName>
+
+    <!-- Appearance -->
+    <Face>!</Face>
+    <ForegroundColor>ColorSet0-2</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a vial.</Description>
+
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+    <Normal />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <Rarity>0.3</Rarity>
+    <Value>10</Value>
+  </Item>
+
+  <Item>
+    <Name>Potion</Name>
+    <TrueName>Paralyzing Potion</TrueName>
+
+    <!-- Appearance -->
+    <Face>!</Face>
+    <ForegroundColor>ColorSet0-3</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a vial.</Description>
+
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+    <Paralyze />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <Rarity>0.18</Rarity>
+    <Value>10</Value>
+  </Item>
+
+  <Item>
+    <Name>Potion</Name>
+    <TrueName>Love Potion</TrueName>
+
+    <!-- Appearance -->
+    <Face>!</Face>
+    <ForegroundColor>ColorSet0-4</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a vial.</Description>
+
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+    <Charm />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <Rarity>0.22</Rarity>
+    <Value>20</Value>
+  </Item>
+
+  <Item>
+    <Name>Potion</Name>
+    <TrueName>Spoiled Potion</TrueName>
+
+    <!-- Appearance -->
+    <Face>!</Face>
+    <ForegroundColor>ColorSet0-1</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a vial.</Description>
+
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>-10</Health>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>2</MinLevel>
+    <Rarity>0.4</Rarity>
+    <Value>0</Value>
+  </Item>
+  
+  <!-- Food -->
+  <Item>
+    <Name>Dead Rat</Name>
+
+    <!-- Appearance -->
+    <Face>r</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>The rat's corpse.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>15</Health>
+    <Food>425</Food>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Rations</Name>
+    <TrueName>Normal Rations</TrueName>
+
+    <!-- Appearance -->
+    <Face>:</Face>
+    <ForegroundColor>3</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>An old lunchbox.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>20</Health>
+    <Food>1500</Food>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>1</MinLevel>
+    <Rarity>1</Rarity>
+    <Value>15</Value>
+  </Item>
+
+  <Item>
+    <Name>Goblin Rations</Name>
+
+    <!-- Appearance -->
+    <Face>:</Face>
+    <ForegroundColor>2</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>A green lunchbox.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>5</Health>
+    <Food>1200</Food>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>1</MinLevel>
+    <MaxLevel>12</MaxLevel>
+    <Rarity>0.7</Rarity>
+    <Value>25</Value>
+  </Item>
+
+  <Item>
+    <Name>Goblin Rations</Name>
+    <TrueName>Expired Goblin Rations</TrueName>
+
+    <!-- Appearance -->
+    <Face>:</Face>
+    <ForegroundColor>2</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>A green lunchbox.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>-10</Health>
+    <Food>230</Food>
+
+    <!-- Status Effects -->
+    <Poison />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>13</MinLevel>
+    <Rarity>0.1</Rarity>
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Rations</Name>
+    <TrueName>Expired Rations</TrueName>
+
+    <!-- Appearance -->
+    <Face>:</Face>
+    <ForegroundColor>3</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>An OLD lunchbox.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Health>10</Health>
+    <Food>500</Food>
+
+    <!-- Status Effects -->
+    <Poison />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <Rarity>0.2</Rarity>
+    <Value>0</Value>
+  </Item>
+
+  <!-- Fun Items -->
+  <Item>
+    <Name>Tiresias' Coin</Name>
+
+    <!-- Appearance -->
+    <Face>*</Face>
+    <ForegroundColor>6</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see an ancient coin.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+    <Throwable />
+
+    <!-- Change Effects -->
+    <Gender>Flip</Gender>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <MaxLevel>4</MaxLevel>
+    <Rarity>0.2</Rarity>
+    <Unique />
+    <Value>500</Value>
+  </Item>
+
+  <Item>
+    <Name>Rat Poison</Name>
+    
+    <!-- Appearance -->
+    <Face>,</Face>
+    <ForegroundColor>6</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a brown pile.</Description>
+
+    <!-- Use Flags -->
+    <OnBump />
+
+    <!-- Change Effects -->
+    <Species>Rat</Species>
+    <Food>75</Food>
+
+    <!-- Status Effects -->
+    <Poison />
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <MaxLevel>6</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Value>3</Value>
+  </Item>
+
+  <Item>
+    <Name>Solvent</Name>
+
+    <!-- Appearance -->
+    <Face>'</Face>
+    <ForegroundColor>9</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a small glass vial of blue liquid.</Description>
+
+    <!-- Use Flags -->
+    <Throwable />
+    <Useable />
+
+    <!-- Change Effects -->
+    <Species>Blob</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>2</MinLevel>
+    <MaxLevel>7</MaxLevel>
+    <Rarity>0.2</Rarity>
+    <Unique />
+    <Value>50</Value>
+  </Item>
+
+  <Item>
+    <Name>Hob Juice</Name>
+
+    <!-- Appearance -->
+    <Face>J</Face>
+    <ForegroundColor>12</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a bloody red liquid.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Species>Hobgoblin</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>6</MinLevel>
+    <MaxLevel>10</MaxLevel>
+    <Rarity>0.3</Rarity>
+    <Value>50</Value>
+  </Item>
+  
+  <Item>
+    <Name>Goblin Altar</Name>
+
+    <!-- Appearance -->
+    <Face>^</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a stone altar with goblin writing.</Description>
+
+    <!-- Use Flags -->
+    <OnTake />
+    <Remain />
+
+    <!-- Change Effects -->
+    <Species>Goblin</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>4</MinLevel>
+    <MaxLevel>12</MaxLevel>
+    <Rarity>0.05</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Madman's Token</Name>
+    <TrueName>Zombification Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a tarnished necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Species>Zombie</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>5</MinLevel>
+    <MaxLevel>13</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <Unique />
+    <Value>90</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Humanification Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+    <Throwable />
+
+    <!-- Change Effects -->
+    <Species>Human</Species>
+    <Gender>Flip</Gender>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>4</MinLevel>
+    <MaxLevel>18</MaxLevel>
+    <Rarity>0.2</Rarity>
+    <Unique />
+    <Value>200</Value>
+  </Item>
+
+  <Item>
+    <Name>Cursed Flame</Name>
+
+    <!-- Appearance -->
+    <Face>"</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>12</BackgroundColor>
+    <Description>A burning fire seemingly without a source.</Description>
+
+    <!-- Use Flags -->
+    <OnTake />
+    <OnBump />
+    <NoShow />
+    <Remain />
+
+    <!-- Change Effects -->
+    <Species>Fire Sprite</Species>
+    <Health>-8</Health>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>10</MinLevel>
+    <MaxLevel>18</MaxLevel>
+    <Rarity>0.1</Rarity>
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Demon Altar</Name>
+
+    <!-- Appearance -->
+    <Face>^</Face>
+    <ForegroundColor>8</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a stone altar with black writing.</Description>
+
+    <!-- Use Flags -->
+    <OnTake />
+    <Remain />
+
+    <!-- Change Effects -->
+    <Species>Corrupted</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>17</MinLevel>
+    <MaxLevel>19</MaxLevel>
+    <Rarity>0.1</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+  
+  <!-- Equippable Items -->
+
+  <!-- Armor -->
+  <Item>
+    <Name>Shirt</Name>
+
+    <!-- Appearance -->
+    <Face>]</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>6</BackgroundColor>
+    <Description>You see a thick cotton shirt.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Armor</EquipmentType>
+
+    <!-- Change Effects -->
+    <Defense>5</Defense>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <MaxLevel>4</MaxLevel>
+    <Rarity>0.3</Rarity>
+    <Value>30</Value>
+  </Item>
+
+  <Item>
+    <Name>Dress</Name>
+    <TrueName>Accursed Dress</TrueName>
+
+    <!-- Appearance -->
+    <Face>]</Face>
+    <ForegroundColor>5</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shimmering dress.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Armor</EquipmentType>
+    <CurseProbability>0.9</CurseProbability>
+
+    <!-- Change Effects -->
+    <Defense>10</Defense>
+    <Gender>Female</Gender>
+    <Species>Human</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>7</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>100</Value>
+  </Item>
+
+  <Item>
+    <Name>Mail Shirt</Name>
+
+    <!-- Appearance -->
+    <Face>]</Face>
+    <ForegroundColor>15</ForegroundColor>
+    <BackgroundColor>8</BackgroundColor>
+    <Description>You see a thin mail shirt.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Armor</EquipmentType>
+    <CurseProbability>0.1</CurseProbability>
+
+    <!-- Change Effects -->
+    <Defense>12</Defense>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>5</MinLevel>
+    <MaxLevel>9</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <Unique />
+    <Value>65</Value>
+  </Item>
+
+  <Item>
+    <Name>Leather Shirt</Name>
+
+    <!-- Appearance -->
+    <Face>]</Face>
+    <ForegroundColor>0</ForegroundColor>
+    <BackgroundColor>6</BackgroundColor>
+    <Description>You see a heavy leather shirt.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Armor</EquipmentType>
+    <CurseProbability>0.2</CurseProbability>
+
+    <!-- Change Effects -->
+    <Defense>17</Defense>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>8</MinLevel>
+    <MaxLevel>12</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <Unique />
+    <Value>75</Value>
+  </Item>
+  
+  <!-- Weapons -->
+  <Item>
+    <Name>Stick</Name>
+
+    <!-- Appearance -->
+    <Face>)</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a stick.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Weapon</EquipmentType>
+
+    <!-- Change Effects -->
+    <Attack>10</Attack>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <MaxLevel>4</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <Value>15</Value>
+  </Item>
+  
+  <Item>
+    <Name>Old Sword</Name>
+
+    <!-- Appearance -->
+    <Face>)</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see an old, well-used sword.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Weapon</EquipmentType>
+    <CurseProbability>0.3</CurseProbability>
+
+    <!-- Change Effects -->
+    <Attack>18</Attack>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>8</MaxLevel>
+    <Unique />
+    <Value>135</Value>
+  </Item>
+
+  <Item>
+    <Name>King's Sword</Name>
+
+    <!-- Appearance -->
+    <Face>)</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a royal jeweled sword.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Weapon</EquipmentType>
+    <CurseProbability>0.6</CurseProbability>
+
+    <!-- Change Effects -->
+    <Attack>31</Attack>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>9</MinLevel>
+    <MaxLevel>14</MaxLevel>
+    <Unique />
+    <Value>150</Value>
+  </Item>
+
+  <Item>
+    <Name>Platinum Cane</Name>
+    <TrueName>Nymph's Gift</TrueName>
+
+    <!-- Appearance -->
+    <Face>)</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>A shining unearthly cane.</Description>
+
+    <!-- Use Flags -->
+    <Equippable />
+    <EquipmentType>Weapon</EquipmentType>
+    <CurseProbability>0.1</CurseProbability>
+
+    <!-- Change Effects -->
+    <Attack>36</Attack>
+    <Species>Half-Nymph</Species>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>10</MinLevel>
+    <MaxLevel>17</MaxLevel>
+    <Rarity>0.1</Rarity>
+    <Unique />
+    <Value>155</Value>
+  </Item>
+  
+  <!-- Spell Tokens -->
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Identify Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Identify</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>0</MinLevel>
+    <MaxLevel>4</MaxLevel>
+    <Rarity>0.9</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Remove Curse Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Remove Curse</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>8</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Destroy Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Destroy</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>15</MaxLevel>
+    <Rarity>0.3</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Satiate Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Satiate</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>1</MinLevel>
+    <MaxLevel>12</MaxLevel>
+    <Rarity>0.8</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Heal Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Heal</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>1</MinLevel>
+    <MaxLevel>10</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Decimate Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Decimate</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>15</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Duodecimate Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Duodecimate</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>16</MinLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Fireball Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Fireball</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>2</MinLevel>
+    <MaxLevel>20</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Big Fireball Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Big Fireball</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>12</MinLevel>
+    <Rarity>0.25</Rarity>
+    <Unique />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Goblin's Dream Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Goblin's Dream</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>320</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Become Copy Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Become Copy</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>150</Value>
+  </Item>
+
+  <Item>
+    <Name>Magic Token</Name>
+    <TrueName>Overwrite Token</TrueName>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <Spell>Overwrite</Spell>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>150</Value>
+  </Item>
+
+  <Item>
+    <Name>Master Token</Name>
+
+    <!-- Appearance -->
+    <Face>q</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a truly brilliant necklace.</Description>
+
+    <!-- Use Flags -->
+    <Useable />
+
+    <!-- Change Effects -->
+    <MoreSpells>1</MoreSpells>
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <MinLevel>4</MinLevel>
+    <Rarity>0.1</Rarity>
+    <Unique />
+    <Value>250</Value>
+  </Item>
+  
+  <!-- Really Awesome Items -->
+
+  <Item>
+    <Name>Dragon Scale</Name>
+    <TrueName>Alpha Dragon Scale</TrueName>
+
+    <!-- Appearance -->
+    <Face>s</Face>
+    <ForegroundColor>ColorSet1-1</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining scale.</Description>
+
+    <!-- Use Flags -->
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Dragon Scale</Name>
+    <TrueName>Beta Dragon Scale</TrueName>
+
+    <!-- Appearance -->
+    <Face>s</Face>
+    <ForegroundColor>ColorSet1-2</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining scale.</Description>
+
+    <!-- Use Flags -->
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>0</Value>
+  </Item>
+
+  <Item>
+    <Name>Dragon Scale</Name>
+    <TrueName>Gamma Dragon Scale</TrueName>
+
+    <!-- Appearance -->
+    <Face>s</Face>
+    <ForegroundColor>ColorSet1-3</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+    <Description>You see a shining scale.</Description>
+
+    <!-- Use Flags -->
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+    <!-- Gameplay Characteristics -->
+    <CantSpawn />
+    <Value>0</Value>
+  </Item>
+
+</Items>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Spells>
+  <Spell>
+    <Name>Identify</Name>
+
+    <!-- Gameplay -->
+    <Target>Item</Target>
+    <Identify />
+    <ChargeTime>45</ChargeTime>
+    <Charges>1</Charges>
+    <Probability>1</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+    
+  </Spell>
+
+  <Spell>
+    <Name>Remove Curse</Name>
+
+    <!-- Gameplay -->
+    <Target>Item</Target>
+    <Uncurse />
+    <ChargeTime>50</ChargeTime>
+    <Charges>3</Charges>
+    <Probability>0.9</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+  </Spell>
+
+  <Spell>
+    <Name>Destroy</Name>
+
+    <!-- Gameplay -->
+    <Range>6</Range>
+    <Target>Thing</Target>
+    <ChargeTime>100</ChargeTime>
+    <Charges>1</Charges>
+    <Probability>0.9</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+  </Spell>
+  
+  <Spell>
+    <Name>Satiate</Name>
+
+    <!-- Gameplay -->
+    <Target>Self</Target>
+    <ChargeTime>50</ChargeTime>
+    <Charges>5</Charges>
+    <Probability>0.9</Probability>
+    
+    <!-- Change Effects -->
+    <Food>1500</Food>
+
+    <!-- Status Effects -->
+    
+  </Spell>
+
+  <Spell>
+    <Name>Heal</Name>
+
+    <!-- Gameplay -->
+    <Target>Self</Target>
+    <ChargeTime>60</ChargeTime>
+    <Charges>5</Charges>
+    <Probability>0.95</Probability>
+
+    <!-- Change Effects -->
+    <Health>15</Health>
+
+    <!-- Status Effects -->
+
+  </Spell>
+
+  <Spell>
+    <Name>Fireball</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Range>4</Range>
+    <ChargeTime>75</ChargeTime>
+    <Charges>3</Charges>
+    <Probability>0.8</Probability>
+
+    <!-- Change Effects -->
+    <Health>-25</Health>
+
+    <!-- Status Effects -->
+  </Spell>
+
+  <Spell>
+    <Name>Big Fireball</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Range>5</Range>
+    <ChargeTime>90</ChargeTime>
+    <Charges>2</Charges>
+    <Probability>0.7</Probability>
+
+    <!-- Change Effects -->
+    <Health>-50</Health>
+
+    <!-- Status Effects -->
+  </Spell>
+
+  <Spell>
+    <Name>Decimate</Name>
+    
+    <!-- Gameplay -->
+    <Target>Enemies</Target>
+    <Range>5</Range>
+    <ChargeTime>40</ChargeTime>
+    <Charges>2</Charges>
+    <Probability>0.8</Probability>
+
+    <!-- Change Effects -->
+    <Health>-10</Health>
+    
+    <!-- Status Effects -->
+  </Spell>
+
+  <Spell>
+    <Name>Duodecimate</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemies</Target>
+    <Range>6</Range>
+    <ChargeTime>60</ChargeTime>
+    <Charges>3</Charges>
+    <Probability>0.75</Probability>
+
+    <!-- Change Effects -->
+    <Health>-20</Health>
+
+    <!-- Status Effects -->
+  </Spell>
+
+  <Spell>
+    <Name>Nymphate</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Range>4</Range>
+    <ChargeTime>35</ChargeTime>
+    <Charges>1</Charges>
+    <Probability>0.7</Probability>
+
+    <!-- Change Effects -->
+    <Species>Nymph</Species>
+    <Gender>Female</Gender>
+
+    <!-- Status Effects -->
+    <Charm />
+  </Spell>
+
+  <Spell>
+    <Name>Goblin's Dream</Name>
+
+    <!-- Gameplay -->
+    <Target>Self</Target>
+    <Target>Enemies</Target>
+    <ChargeTime>200</ChargeTime>
+    <Charges>1</Charges>
+    <Range>400</Range>
+    <Probability>0.2</Probability>
+
+    <!-- Change Effects -->
+    <Species>Goblin</Species>
+    <Gender>Female</Gender>
+
+    <!-- Status Effects -->
+    <Charm />
+
+  </Spell>
+
+  <Spell>
+    <Name>Clone</Name>
+
+    <!-- Gameplay -->
+    <Target>Self</Target>
+    <Clone />
+    <ChargeTime>20</ChargeTime>
+    <Charges>1</Charges>
+    <Range>3</Range>
+    <Probability>1</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+  </Spell>
+
+  <Spell>
+    <Name>Become Copy</Name>
+
+    <!-- Gameplay -->
+    <Target>Self</Target>
+    <Clone />
+    <ChargeTime>120</ChargeTime>
+    <Charges>1</Charges>
+    <Range>3</Range>
+    <Probability>0.25</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+  </Spell>
+
+  <Spell>
+    <Name>Overwrite</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Clone />
+    <ChargeTime>150</ChargeTime>
+    <Charges>1</Charges>
+    <Range>3</Range>
+    <Probability>0.34</Probability>
+
+    <!-- Change Effects -->
+
+    <!-- Status Effects -->
+
+  </Spell>
+
+  <Spell>
+    <Name>Snakebite</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Range>2</Range>
+    <ChargeTime>60</ChargeTime>
+    <Charges>5</Charges>
+    <Probability>0.9</Probability>
+
+    <!-- Change Effects -->
+    <Health>-10</Health>
+
+    <!-- Status Effects -->
+    <Poison />
+  </Spell>
+  
+  <Spell>
+    <Name>Snake's Curse</Name>
+
+    <!-- Gameplay -->
+    <Target>Enemy</Target>
+    <Range>3</Range>
+    <ChargeTime>40</ChargeTime>
+    <Charges>1</Charges>
+    <Probability>0.6</Probability>
+
+    <!-- Change Effects -->
+    <Species>Naga</Species>
+    <Gender>Female</Gender>
+    <Health>-20</Health>
+
+    <!-- Status Effects -->
+  </Spell>
+  
+</Spells>

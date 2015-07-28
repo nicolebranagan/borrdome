@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Colors:
+0  - Black
+1  - Dark Blue
+2  - Dark Green
+3  - Dark Cyan
+4  - Dark Red
+5  - Dark Magenta
+6  - Dark Yellow
+7  - Grey
+8  - Dark Grey
+9  - Blue
+10 - Green
+11 - Cyan
+12 - Red
+13 - Magenta
+14 - Yellow
+15 - White 
+
+For best effect, gendered names should be no longer than 12 and non-gendered 14 characters.-->
+<Specieses>
+  <Species>
+    <Name>Human</Name>
+
+    <Attack>30</Attack>
+    <Defense>20</Defense>
+    
+    <!-- Appearance -->
+    <Face>O</Face>
+    <ForegroundColor>15</ForegroundColor>
+    <BackgroundColor>1</BackgroundColor>
+    
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>4</ThrowingRange>
+    <EatingRate>50</EatingRate>
+    
+    <!-- Gameplay Characteristics-->
+    <CantSpawn />
+  </Species>
+
+  <Species>
+    <Name>Nymph</Name>
+
+    <Attack>25</Attack>
+    <Defense>15</Defense>
+
+    <!-- Appearance -->
+    <Face>n</Face>
+    <ForegroundColor>11</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <EasilyCharmed />
+    <Charmer />
+    <ThrowingRange>7</ThrowingRange>
+    <EatingRate>15</EatingRate>
+
+    <!-- Gameplay Characteristics-->
+    <CantSpawn />
+  </Species>
+
+  <Species>
+    <Name>Blob</Name>
+
+    <Attack>5</Attack>
+    <Defense>10</Defense>
+
+    <!-- Appearance -->
+    <Face>o</Face>
+    <ForegroundColor>10</ForegroundColor>
+    <BackgroundColor>5</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <CantEquip />
+    <ThrowingRange>0</ThrowingRange>
+    <EatingRate>0</EatingRate>
+    <Drops>Solvent</Drops>
+    <DropRate>0.07</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>1</MinLevel>
+    <AI>Dumb,4</AI>
+  </Species>
+
+  <Species>
+    <Name>Changeling</Name>
+
+    <Attack>10</Attack>
+    <Defense>10</Defense>
+
+    <!-- Appearance -->
+    <Face>C</Face>
+    <ForegroundColor>3</ForegroundColor>
+    <BackgroundColor>1</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <ThrowingRange>1</ThrowingRange>
+    <EatingRate>1</EatingRate>
+    <Drops>Overwrite Token,Become Copy Token</Drops>
+    <DropRate>0.8</DropRate>
+    <RetainDrop />
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>3</MinLevel>
+    <MaxLevel>17</MaxLevel>
+    <Rarity>0.05</Rarity>
+    <Unique />
+    <AI>Seeker,frequency=3,impatient,spell=Clone,castprob=1,charmprob=0.2,mindist=10</AI>
+  </Species>
+
+  <Species>
+    <Name>Rat</Name>
+
+    <Attack>10</Attack>
+    <Defense>15</Defense>
+
+    <!-- Appearance -->
+    <Face>r</Face>
+    <ForegroundColor>6</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>2</ThrowingRange>
+    <Drops>Dead Rat,Dead Rat,Dead Rat,Dead Rat,Rat Poison</Drops>
+    <DropRate>0.9</DropRate>
+    <EatingRate>15</EatingRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>1</MinLevel>
+    <MaxLevel>5</MaxLevel>
+    <Rarity>0.9</Rarity>
+    <AI>Seeker,frequency=4,mindist=13</AI>
+  </Species>
+
+  <Species>
+    <Name>Goblin</Name>
+
+    <Attack>15</Attack>
+    <Defense>25</Defense>
+
+    <!-- Appearance -->
+    <Face>g</Face>
+    <ForegroundColor>10</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>4</ThrowingRange>
+    <EatingRate>40</EatingRate>
+    <Drops>Goblin Rations,Goblin Rations,Goblin Rations,Goblin Rations,Goblin Rations,Goblin Rations,Goblin Rations,Goblin's Dream Token</Drops>
+    <DropRate>0.8</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>2</MinLevel>
+    <MaxLevel>6</MaxLevel>
+    <Rarity>0.7</Rarity>
+    <AI>Seeker,frequency=4,impatient,charmprob=0.5,mindist=11</AI>
+  </Species>
+
+  <Species>
+    <Name>Half-Goblin</Name>
+
+    <Attack>20</Attack>
+    <Defense>30</Defense>
+
+    <!-- Appearance -->
+    <Face>g</Face>
+    <ForegroundColor>10</ForegroundColor>
+    <BackgroundColor>1</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>5</ThrowingRange>
+    <EatingRate>43</EatingRate>
+    <Drops>Goblin Rations,Normal Rations</Drops>
+    <DropRate>0.8</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>6</MinLevel>
+    <MaxLevel>10</MaxLevel>
+    <Rarity>0.8</Rarity>
+    <AI>Seeker,frequency=3,impatient,charmprob=0.7,mindist=13</AI>
+  </Species>
+
+  <Species>
+    <Name>Hobgoblin</Name>
+
+    <Attack>30</Attack>
+    <Defense>35</Defense>
+
+    <!-- Appearance -->
+    <Face>g</Face>
+    <ForegroundColor>12</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>5</ThrowingRange>
+    <EatingRate>45</EatingRate>
+    <Drops>Goblin Rations,Health Potion,Goblin Rations,Health Potion,Hob Juice</Drops>
+    <DropRate>0.7</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>4</MinLevel>
+    <MaxLevel>10</MaxLevel>
+    <Rarity>0.3</Rarity>
+    <AI>Seeker,frequency=3,impatient,charmprob=0.3,mindist=14</AI>
+  </Species>
+
+  <Species>
+    <Name>Zombie</Name>
+
+    <Attack>40</Attack>
+    <Defense>15</Defense>
+
+    <!-- Appearance -->
+    <Face>O</Face>
+    <ForegroundColor>7</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Undead />
+    <ThrowingRange>4</ThrowingRange>
+    <EatingRate>60</EatingRate>
+    <Drops>Normal Rations,Poisoned Rations</Drops>
+    <DropRate>0.5</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>5</MinLevel>
+    <MaxLevel>14</MaxLevel>
+    <Rarity>0.9</Rarity>
+    <AI>Seeker,frequency=5,impatient,mindist=9</AI>
+  </Species>
+
+  <Species>
+    <Name>Ghost</Name>
+
+    <Attack>30</Attack>
+    <Defense>10</Defense>
+
+    <!-- Appearance -->
+    <Face>G</Face>
+    <ForegroundColor>15</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Resist>Poison</Resist>
+    <Undead />
+    <Ghost />
+    <ThrowingRange>20</ThrowingRange>
+    <EatingRate>0</EatingRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>8</MinLevel>
+    <MaxLevel>13</MaxLevel>
+    <Rarity>0.7</Rarity>
+    <AI>Seeker,frequency=2,impatient,mindist=14</AI>
+  </Species>
+  
+  <Species>
+    <Name>Half-Nymph</Name>
+
+    <Attack>35</Attack>
+    <Defense>20</Defense>
+
+    <!-- Appearance -->
+    <Face>n</Face>
+    <ForegroundColor>11</ForegroundColor>
+    <BackgroundColor>1</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <Charmer />
+    <ThrowingRange>5</ThrowingRange>
+    <EatingRate>20</EatingRate>
+    <Drops>Normal Rations,Nymph's Gift</Drops>
+    <DropRate>0.8</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>13</MinLevel>
+    <MaxLevel>17</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <AI>Seeker,frequency=4,impatient,spell=Nymphate,castprob=0.7,charmprob=0.6,mindist=14</AI>
+  </Species>
+
+  <Species>
+    <Name>Fire Sprite</Name>
+
+    <Attack>15</Attack>
+    <Defense>15</Defense>
+
+    <!-- Appearance -->
+    <Face>-</Face>
+    <ForegroundColor>14</ForegroundColor>
+    <BackgroundColor>8</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <CantEquip />
+    <ThrowingRange>10</ThrowingRange>
+    <EatingRate>5</EatingRate>
+    <Drops>Cursed Flame</Drops>
+    <DropRate>1</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>11</MinLevel>
+    <MaxLevel>16</MaxLevel>
+    <Rarity>0.22</Rarity>
+    <AI>Seeker,frequency=3,spell=Fireball,castprob=1,mindist=15</AI>
+  </Species>
+
+  <Species>
+    <Name>Wind Sprite</Name>
+
+    <Attack>45</Attack>
+    <Defense>15</Defense>
+
+    <!-- Appearance -->
+    <Face>-</Face>
+    <ForegroundColor>11</ForegroundColor>
+    <BackgroundColor>8</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <CantEquip />
+    <ThrowingRange>10</ThrowingRange>
+    <EatingRate>5</EatingRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>14</MinLevel>
+    <MaxLevel>20</MaxLevel>
+    <Rarity>0.29</Rarity>
+    <AI>Seeker,frequency=1,mindist=5</AI>
+  </Species>
+  
+  <Species>
+    <Name>Corrupted</Name>
+
+    <Attack>43</Attack>
+    <Defense>24</Defense>
+
+    <!-- Appearance -->
+    <Face>O</Face>
+    <ForegroundColor>0</ForegroundColor>
+    <BackgroundColor>8</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <ThrowingRange>5</ThrowingRange>
+    <EatingRate>50</EatingRate>
+    <Drops>Expired Rations</Drops>
+    <DropRate>0.8</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>13</MinLevel>
+    <MaxLevel>19</MaxLevel>
+    <Rarity>0.7</Rarity>
+    <AI>Seeker,frequency=2,mindist=13</AI>
+  </Species>
+
+  <Species>
+    <Name>Snake</Name>
+
+    <Attack>31</Attack>
+    <Defense>22</Defense>
+
+    <!-- Appearance -->
+    <Face>S</Face>
+    <ForegroundColor>10</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Resist>Poison</Resist>
+    <CantEquip />
+    <ThrowingRange>1</ThrowingRange>
+    <EatingRate>15</EatingRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>17</MinLevel>
+    <MaxLevel>25</MaxLevel>
+    <Rarity>0.4</Rarity>
+    <AI>Seeker,frequency=4,spell=Snakebite,castprob=0.4,mindist=20</AI>
+  </Species>
+
+  <Species>
+    <Name>Naga</Name>
+
+    <Attack>70</Attack>
+    <Defense>36</Defense>
+
+    <!-- Appearance -->
+    <Face>N</Face>
+    <ForegroundColor>10</ForegroundColor>
+    <BackgroundColor>2</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Resist>Poison</Resist>
+    <CantEquip />
+    <Gendered />
+    <ThrowingRange>1</ThrowingRange>
+    <EatingRate>23</EatingRate>
+    <Drops>Normal Rations</Drops>
+    <DropRate>0.4</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>20</MinLevel>
+    <MaxLevel>25</MaxLevel>
+    <Rarity>0.5</Rarity>
+    <AI>Seeker,frequency=3,spell=Snakebite,castprob=0.4,mindist=13</AI>
+  </Species>
+
+  <Species>
+    <Name>Demon</Name>
+
+    <Attack>83</Attack>
+    <Defense>40</Defense>
+
+    <!-- Appearance -->
+    <Face>Z</Face>
+    <ForegroundColor>12</ForegroundColor>
+    <BackgroundColor>4</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <Charmer />
+    <ThrowingRange>7</ThrowingRange>
+    <EatingRate>75</EatingRate>
+    <Drops>Poisoned Rations,Zombification Token,Expired Goblin Rations</Drops>
+    <DropRate>0.2</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>21</MinLevel>
+    <MaxLevel>25</MaxLevel>
+    <Rarity>0.2</Rarity>
+    <AI>Seeker,frequency=3,impatient,spell=Nymphate,spell=Snake's Curse,castprob=0.5,charmprob=0.6,mindist=13</AI>
+  </Species>
+
+  <Species>
+    <Name>Alpha Dragon</Name>
+
+    <Attack>125</Attack>
+    <Defense>53</Defense>
+
+    <!-- Appearance -->
+    <Face>D</Face>
+    <ForegroundColor>ColorSet1*1</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <ThrowingRange>30</ThrowingRange>
+    <EatingRate>500</EatingRate>
+    <Drops>Alpha Dragon Scale</Drops>
+    <DropRate>1</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>23</MinLevel>
+    <MaxLevel>23</MaxLevel>
+    <Rarity>1</Rarity>
+    <AI>Seeker,frequency=2,impatient,spell=Fireball,castprob=0.3,mindist=7</AI>
+    <Guarantee />
+  </Species>
+
+  <Species>
+    <Name>Beta Dragon</Name>
+
+    <Attack>175</Attack>
+    <Defense>60</Defense>
+
+    <!-- Appearance -->
+    <Face>D</Face>
+    <ForegroundColor>ColorSet1*2</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Gendered />
+    <Resist>Poison</Resist>
+    <ThrowingRange>50</ThrowingRange>
+    <EatingRate>1000</EatingRate>
+    <Drops>Beta Dragon Scale</Drops>
+    <DropRate>1</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>24</MinLevel>
+    <MaxLevel>24</MaxLevel>
+    <Rarity>1</Rarity>
+    <AI>Seeker,frequency=2,impatient,spell=Big Fireball,castprob=0.4,mindist=3</AI>
+    <Guarantee />
+  </Species>
+
+  <Species>
+    <Name>Gamma Dragon</Name>
+
+    <Attack>200</Attack>
+    <Defense>75</Defense>
+
+    <!-- Appearance -->
+    <Face>D</Face>
+    <ForegroundColor>ColorSet1*3</ForegroundColor>
+    <BackgroundColor>0</BackgroundColor>
+
+    <!-- Racial Characteristics-->
+    <Resist>Paralyze</Resist>
+    <ThrowingRange>100</ThrowingRange>
+    <EatingRate>1500</EatingRate>
+    <Drops>Gamma Dragon Scale</Drops>
+    <DropRate>1</DropRate>
+
+    <!-- Gameplay Characteristics-->
+    <MinLevel>25</MinLevel>
+    <MaxLevel>25</MaxLevel>
+    <Rarity>1</Rarity>
+    <AI>Seeker,frequency=1,impatient,spell=Big Fireball,castprob=0.2,mindist=1</AI>
+    <Guarantee />
+  </Species>
+  
+</Specieses>
